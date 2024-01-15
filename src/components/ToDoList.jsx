@@ -22,10 +22,11 @@ function ToDoList(props) {
                 onClick={() => {
                     props.addList(inputText)
                     setInputText("")
-                }}>+</button>
+                }}>plus</button>
 
         </div>
     )
+
 }
 
 export default ToDoList
