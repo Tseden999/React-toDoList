@@ -22,7 +22,7 @@ function ToDoList(props) {
                 onClick={() => {
                     props.addList(inputText)
                     setInputText("")
-                }}>plus</button>
+                }}>+</button>
 
         </div>
     )
